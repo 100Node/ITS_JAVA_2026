@@ -12,7 +12,7 @@ public class HaversineDistanceCalculator extends JFrame {
     public HaversineDistanceCalculator() {
         setTitle("Distance Calculation (Haversine Formula)");
         setSize(450, 350);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setLayout(new GridLayout(7, 2, 10, 10));
 

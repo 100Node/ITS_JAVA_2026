@@ -1,0 +1,75 @@
+# =========================
+# Java / Скомпільовані файли
+# =========================
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+
+# =========================
+# Архіви та пакунки
+# =========================
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# =========================
+# Логи помилок JVM
+# =========================
+hs_err_pid*
+replay_pid*
+
+# =========================
+# Системи збірки (Maven / Gradle)
+# =========================
+target/
+build/
+.gradle/
+out/
+
+# =========================
+# Visual Studio Code
+# =========================
+.vscode/*
+# Розкоментуйте рядки нижче, якщо хочете ділитися цими налаштуваннями з командою:
+# !.vscode/settings.json
+# !.vscode/tasks.json
+# !.vscode/launch.json
+# !.vscode/extensions.json
+*.code-workspace
+
+# =========================
+# Налаштування Eclipse JDT (Генеруються VS Code)
+# =========================
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.classpath
+.project
+.factorypath
+*.launch
+
+# =========================
+# Системні файли ОС
+# =========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+.env
